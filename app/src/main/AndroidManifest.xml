@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourism">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tourism">
+        <activity android:name=".yamnotri_first"
+            android:label="YAMUNOTRI"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".kedarnath_first"
+            android:label="KEDARNATH"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".badrinath_first"
+            android:label="BADRINATH"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".gangotri_first"
+            android:label="GANGOTRI"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".yam_first_att"
+            android:label="ATTRACTIONS"
+            android:parentActivityName=".yamnotri_first">
+        </activity>
+        <activity android:name=".yam_att_kha"
+            android:label="Kharsali"
+            android:parentActivityName=".yam_first_att">
+        </activity>
+        <activity android:name=".yam_att_han"
+            android:label="HANUMAN Chatti"
+            android:parentActivityName=".yam_first_att">
+        </activity>
+        <activity android:name=".nainital_first"
+            android:label="NAINITAL"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".rishikesh_first"
+            android:label="Rishikesh"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".yamunotri_des"
+            android:label="Description "
+            android:parentActivityName=".yamnotri_first">
+        </activity>
+        <activity android:name=".gang_des"
+            android:label="DESCRIPTION"
+            android:parentActivityName=".gangotri_first">
+        </activity>
+        <activity android:name=".kedarnath_des"
+            android:label="Description "
+            android:parentActivityName=".kedarnath_first">
+        </activity>
+        <activity android:name=".yam_att_sptknd"
+            android:label="Saptrishi Kund"
+            android:parentActivityName=".yam_first_att">
+        </activity>
+        <activity android:name=".yam_att_jnkchti"
+            android:label="Janki Chatti"
+            android:parentActivityName=".yam_first_att">
+        </activity>
+        <activity android:name=".kedarnath_att"
+            android:label="ATTRACTIONS"
+            android:parentActivityName=".kedarnath_first">
+        </activity>
+        <activity android:name=".badrinath_des"
+            android:label="Description"
+            android:parentActivityName=".badrinath_first">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
